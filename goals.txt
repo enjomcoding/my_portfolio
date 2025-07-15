@@ -1,2 +1,76 @@
 these are my daily goals and objectives in making my professional portfolio
 
+PHASE 1: Preparation & Planning (Days 1–10)
+Day	Goal
+1	Define your purpose (job, freelance, academic, etc.) and target audience.
+2	Research 3–5 great portfolio examples in your field.
+3	Choose your tools: HTML/CSS, React + Tailwind, or Webflow.
+4	List sections to include (About, Projects, Resume, Contact, etc.).
+5	Decide on branding: colors, fonts, and tone.
+6	Sketch a wireframe (paper or Figma).
+7	Draft short bio (About Me section).
+8	Start listing your best 3–5 projects (titles + purpose).
+9	Write brief descriptions for each project (goal, tools used, what you learned).
+10	Set up your GitHub or Webflow account, create initial repo/project.
+
+PHASE 2: Structure & Layout (Days 11–25)
+Day	Goal
+11	Set up basic project structure (index.html, App.js, etc.).
+12	Create header and navigation bar.
+13	Build home section (intro and call to action).
+14	Build About section with short bio and image.
+15	Style About section with your chosen color scheme.
+16	Build Projects section layout.
+17	Add 1 project card with details.
+18	Add 2–3 more projects with thumbnails and links.
+19	Build Resume/Skills section (list soft + tech skills).
+20	Build Contact form or contact links.
+21	Add footer with social links and copyright.
+22	Apply consistent spacing, typography, and colors.
+23	Make layout mobile-friendly (responsive design).
+24	Add favicon, title tags, and metadata.
+25	Review layout, clean up unnecessary files or code.
+
+PHASE 3: Polish & Interactivity (Days 26–40)
+Day	Goal
+26	Add smooth scrolling and transitions.
+27	Add basic animations (e.g., fade-in on scroll).
+28	Improve accessibility (alt text, semantic HTML, ARIA labels).
+29	Add project links (GitHub, live demo).
+30	Refactor messy code, add comments.
+31	Review responsiveness on different screen sizes.
+32	Optimize images (reduce file size).
+33	Add downloadable PDF resume link.
+34	Add testimonials (if available).
+35	Write custom 404 page.
+36	Add light/dark mode toggle (optional).
+37	Check SEO (headings, meta description, mobile-first).
+38	Link custom domain or plan to buy one.
+39	Add deployment scripts or connect to host (Netlify, Vercel, etc.).
+40	Deploy draft version and test all links/forms.
+
+PHASE 4: Feedback & Revision (Days 41–50)
+Day	Goal
+41	Ask 2–3 peers to review your portfolio.
+42	Fix typos, grammar, and broken links.
+43	Adjust layout based on feedback.
+44	Replace weak project with better one (if needed).
+45	Refine color, spacing, or font issues.
+46	Improve project writeups (impact/results).
+47	Improve CTA buttons and contact clarity.
+48	Polish overall branding (voice + design match).
+49	Re-check mobile/tablet/desktop versions.
+50	Final deployment of revised version.
+
+PHASE 5: Launch & Promotion (Days 51–60)
+Day	Goal
+51	Announce your portfolio on social media.
+52	Add it to your LinkedIn and GitHub profile.
+53	Submit it to dev communities (Reddit, Dev.to, etc.).
+54	Create a resume version with portfolio link.
+55	Send portfolio to 2–3 mentors or pros for feedback.
+56	Apply to 1–2 jobs/freelance gigs using the site.
+57	Set up Google Analytics or Plausible (track visits).
+58	Back up your code and project.
+59	Write a blog post about your portfolio-making journey.
+60	Reflect and celebrate your finished work 🎉
