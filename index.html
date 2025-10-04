@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Jomarie Tijada</title>
+  </head>
+  <body>
+
+    <!-- Navigation -->
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">JST</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home" onclick="document.getElementById('check').checked = false">Home</a></li>
+          <li><a href="#resume" onclick="document.getElementById('check').checked = false">Resume</a></li>
+          <li><a href="#projects" onclick="document.getElementById('check').checked = false">Projects</a></li>
+          <li><a href="#contact" onclick="document.getElementById('check').checked = false">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="section" id="home">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Jomarie<br />an</span> aspiring Software Engineer
+          </h1>
+          <p class="description">
+            I’m a curious student who loves building, learning, and creating with technology.
+          </p>
+          <div class="action__btns">
+            <a href="https://drive.google.com/uc?export=download&id=10MsxV6R0jjO6jyxRNpbF4kG9uByO9sCK" class="hire__me" download>Download CV</a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="images/jom.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+   <section class="resume section" id="resume">
+  <div class="resume__container">
+    
+    <!-- Left Side: Profile Image -->
+    <div class="resume__image">
+      <div class="overlay"></div>
+      <div class="img" style="background-image: url('images/resume_pic.jpeg');"></div>
+    </div>
+
+    <!-- Right Side: Content -->
+    <div class="resume__content">
+      <!-- About -->
+      <div id="about" class="resume__section">
+        <h1 class="big">Resume</h1>
+        <h2 class="mb-4">About Me</h2>
+        <ul class="about__info">
+          <li><span>Name:</span> <span>Jomarie Salvio Tijada</span></li>
+          <li><span>Date of birth:</span> <span>November 01, 2004</span></li>
+          <li><span>Address:</span> <span>Refaro, San Juan, Ilocos Sur</span></li>
+          <li><span>Email:</span> <span>jomsalvio@gmail.com</span></li>
+          <li><span>Phone:</span> <span>+63-961-481-2498</span></li>
+        </ul>
+      </div>
+
+      <!-- Education -->
+      <div id="edu" class="resume__section">
+        <h2 class="mb-4">Education</h2>
+        <div class="resume__item">
+          <h4>Bachelor of Science in Computer Science</h4>
+          <p>University of Northern Philippines | 2023 - 2027</p>
+        </div>
+        <div class="resume__item">
+          <h4>Senior High School (TVL-ICT)</h4>
+          <p>San Juan National High School | 2021 - 2023</p>
+        </div>
+        <div class="resume__item">
+          <h4>Junior High School</h4>
+          <p>San Juan National High School | 2017 - 2021</p>
+        </div>
+        <div class="resume__item">
+          <h4>Primary School</h4>
+          <p>North Marinig Elementary School | 2011 - 2017</p>
+        </div>
+      </div>
+
+      <!-- Experience -->
+      <div id="exp" class="resume__section">
+        <h2 class="mb-4">Experience</h2>
+        <div class="resume__item">
+          <h4>Student-intern Software Developer</h4>
+          <p>Husai PH | 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>Management Staff - ACTS</h4>
+          <p>College of Communication and Information Technology | 2024 - 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>1st Year Representative - ACTS</h4>
+          <p>College of Communication and Information Technology | 2023 - 2024</p>
+        </div>
+        <div class="resume__item">
+          <h4>Grade 10 Representative - SSG</h4>
+          <p>San Juan National High School | 2020 - 2021</p>
+        </div>
+
+      </div>
+
+      <!-- Skills -->
+      <div id="skills" class="resume__section">
+        <h2 class="mb-4">Skills</h2>
+        <ul>
+          <li>Java, Python, C++</li>
+          <li>Problem Solving & Debugging</li>
+          <li>Teamwork & Leadership</li>
+          <li>Software Testing</li>
+          <li>Analytical</li>
+        </ul>
+      </div>
+
+      <!-- Awards -->
+      <div id="awards" class="resume__section">
+        <h2 class="mb-4">Awards</h2>
+        <div class="resume__item">
+          <h4>Introduction to Cybersecurity</h4>
+          <p>CISCO Networking Academy | 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>Network Defense</h4>
+          <p>CISCO Networking Academy | 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>Resource Specialist</h4>
+          <p>CISCO Networking Academy | 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>System Safeguards</h4>
+          <p>CISCO Networking Academy | 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>Threat Analysis</h4>
+          <p>CISCO Networking Academy | 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>Cybersecurity Administration</h4>
+          <p>CISCO Networking Academy | 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>Debug4 - Participant</h4>
+          <p>Hack the North | 2025</p>
+        </div>
+        <div class="resume__item">
+          <h4>CCIT Hackathon - Participant</h4>
+          <p>College of Information and Comunication Technology | 2025</p>
+        </div>
+      </div>
+
+      <!-- Interests -->
+      <div id="interests" class="resume__section">
+        <h2 class="mb-4">Interests</h2>
+        <p>Open Source Projects, Competitive Programming, Volunteering, Gaming & Strategy</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Projects Section -->
+<section class="section" id="projects">
+  <div class="section__container">
+    <h2 class="section__title">Projects</h2>
+    <div class="portfolio__grid">
+      <div class="portfolio__item">
+        <img src="images/vote.png" alt="Vote CSS" />
+        <h4>Vote CSS</h4>
+        <p>A Flutter-based voting system with Firebase backend. Features include ID scanning, secure voting, live vote counts, announcements, and chatbot support for users. 
+          Admins can manage parties, candidates, and election updates.</p>
+      </div>
+      <div class="portfolio__item">
+        <img src="images/tracksactions.png" alt="Tracksactions" />
+        <h4>Tracksactions</h4>
+        <p>A CRUD-based budget tracking system, developed with Java and MS Access.</p>
+      </div>
+      <div class="portfolio__item">
+        <img src="images/sms.jpg" alt="Student Management System" />
+        <h4>Student Management System</h4>
+        <p>A CRUD-based system for managing student records, built with Java and SQL.</p>
+      </div>
+      <div class="portfolio__item">
+        <img src="images/note.png" alt="Note App" />
+        <h4>Note App</h4>
+        <p>A CRUD-based note-taking app built with Java and SQL for organizing personal notes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- Contact Section -->
+<section class="section" id="contact">
+  <div class="contact__wrapper">
+    <div class="contact__content">
+      <h2 class="section__title">Get In Touch</h2>
+      <p class="contact__description">
+        Interested in working together? Feel free to reach out through any of the platforms below.
+      </p>
+      
+      <!-- Social Links -->
+      <div class="social__links">
+        <a href="mailto:jomsalvio@gmail.com" class="social__link" title="Email">
+          <i class="fas fa-envelope"></i>
+          <span>jomsalvio@gmail.com</span>
+        </a>
+        <a href="https://github.com/enjomcoding" target="_blank" class="social__link" title="GitHub">
+          <i class="fab fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.facebook.com/share/19KdLEE8yH/" target="_blank" class="social__link" title="Facebook">
+          <i class="fab fa-facebook"></i>
+          <span>Facebook</span>
+        </a>
+        <a href="https://www.tiktok.com/@jpoo789?_t=ZS-90GH5dRqhA0&_r=1" target="_blank" class="social__link" title="TikTok">
+          <i class="fab fa-tiktok"></i>
+          <span>TikTok</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer__content">
+    <p class="footer__text">&copy; 2025 Jomarie Tijada. All Rights Reserved.</p>
+</footer>
+</html>
